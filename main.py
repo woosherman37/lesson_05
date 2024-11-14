@@ -4,6 +4,8 @@ name = input(f"\nHi, What is your name? ")
 
 if name == "tom":
 	print(f"\nYou are NOT welcome here, {name}! Get out!\n")
+	exit() #stop code execution
+
 else:
 	print(f"\nCome on in, {name}!\n")
 

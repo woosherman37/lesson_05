@@ -7,7 +7,14 @@ if name == "tom":
 else:
 	print(f"\nCome on in, {name}!\n")
 
+x = input(f"\nJust give me a number and I'll show you I can count\n")
 
+x = int(x)
+
+print(f"\nOk, thanks. I will start from 1 and stop at {x}\n")
+
+for num in range(1, x):
+	print(num)
 
 
 

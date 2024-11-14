@@ -19,7 +19,7 @@ if x <= 1:
 
 print(f"\nOk, thanks. I will start from 1 and stop at {x}\n")
 
-for num in range(1, x):
+for num in range(1, x+1):
 	print(num)
 
 

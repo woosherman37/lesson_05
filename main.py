@@ -1,5 +1,8 @@
 #Small app to simulate conversations between 2 individuals
 
+import time 
+
+
 name = input(f"\nHi, What is your name? ")
 
 if name == "tom":
@@ -20,7 +23,20 @@ if x <= 1:
 print(f"\nOk, thanks. I will start from 1 and stop at {x}\n")
 
 for num in range(1, x+1):
-	print(num)
+	print(f"This number is: {num}")
+	time.sleep(1.5)
+
+print(f"I've finished!")
+
+
+
+
+
+
+
+
+
+
 
 
 

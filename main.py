@@ -2,6 +2,13 @@
 
 name = input(f"\nHi, What is your name? ")
 
-print(f"\nHi, {name}\n")
+if name == "tom":
+	print(f"\nYou are NOT welcome here, {name}! Get out!\n")
+else:
+	print(f"\nCome on in, {name}!\n")
+
+
+
+
 
 
